@@ -1,4 +1,4 @@
-
+<!-- 
 
 <!DOCTYPE html> 
 <html> 
@@ -17,4 +17,72 @@
 
 	
 </body> 
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        .container {
+            margin: 20% auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #download-text {
+            font-size: 24px;
+        }
+
+        #download-link {
+            display:inline-block;
+            font-size: 18px;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        #exclamation-mark {
+            display:inline-block;
+            font-size: 18px;
+            animation: jump 1s infinite;
+        }
+
+        @keyframes jump {
+            0%{
+                transform: translateY(1px);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+            100%{
+                transform: translateY(1px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="download-text">Thanks for Downloading my resume</div>
+        <div id="download-text">Still not downloaded?     </div>
+        <span>
+            <a id="download-link" href="#">Click here     <div id="exclamation-mark">!</div> </a>
+        </span>
+        <embed src= 
+"https://drive.google.com/uc?export=download&id=1aUCR_QsaKFz0-YdytXRvNbHVO8M1NjMx"
+			width="800"
+			height="500"> 
+    </div>
+</body>
 </html>
